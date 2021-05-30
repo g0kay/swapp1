@@ -55,8 +55,10 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
         b_soru.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent intent2 = new Intent(MainActivity.this, sorular.class);
                 startActivity(intent2);
+
             }
         });
 
