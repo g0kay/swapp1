@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/spinwheel"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_carksekiz"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sorular"
+            android:background="@drawable/ic_butsoru"
+            android:text="?"
+            android:textSize="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kelimeler"
+            android:background="@drawable/ic_butsoru"
+            android:text="W"
+            android:textSize="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+
+
+
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ButtonSpin"
+            android:background="@drawable/ic_eksi"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClickButtonRotation"
+            android:layout_centerVertical="true"
+            android:text="spın"
+            android:textSize="30dp"
+            android:textStyle="bold"></Button>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageSelect"
+            android:src="@drawable/ic_select"
+            android:layout_marginLeft="340dp"
+            android:layout_centerVertical="true"></ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonUp"
+            android:background="@drawable/ic_eksi"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="500dp"
+            android:text="+"
+            android:onClick="buttonUp"
+            android:textSize="80dp"
+            android:textAlignment="gravity"
+            android:gravity="center_horizontal"></Button>
+
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDown"
+            android:background="@drawable/ic_eksi"
+            android:layout_marginTop="500dp"
+            android:text="-"
+            android:textSize="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:textAlignment="gravity"
+            android:gravity="center_horizontal"
+            android:onClick="buttonDown"
+
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
